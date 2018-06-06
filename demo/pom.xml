@@ -9,9 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.gyn.netty</groupId>
-    <artifactId>netty</artifactId>
+    <groupId>com.gyn.demo</groupId>
+    <artifactId>demo</artifactId>
     <version>1.0.0</version>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>25.1-jre</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
