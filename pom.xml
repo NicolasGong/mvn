@@ -8,10 +8,17 @@
     <artifactId>mvn</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+    </properties>
     <modules>
         <module>demo</module>
         <module>esb</module>
         <module>gyn-metric</module>
+        <module>jline-demo</module>
     </modules>
 
 
